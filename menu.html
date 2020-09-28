@@ -1,0 +1,145 @@
+<h1 style="color:red;text-alignment:center;">WELCOME TO REDHAT LINUX 8</h1>
+<body style="Background-Color:grey">
+<form action="http://192.168.1.146/cgi-bin/date.py">
+<h2 style="color:yellow">Linux commands</h2>
+<b style="color:white">Select Basic linux command you want to execute</b>
+<select name='d' />
+        <option></option>
+        <option>date</option>
+        <option>cal</option>
+        <option>ls </option>
+        <option>ls -l</option>
+        <option>whoami</option>
+        <option>pwd</option>
+        <option>ifconfig</option>
+        <option>ls -a</option>
+        <option>df -h</option>
+        <option>netstat -tnlp</option>
+        <option>ps</option>
+        <option>ps -aux</option>
+        <option>free -m</option>
+        <option>man</option>
+        <option>lscpu</option>
+        <option>echo linux</option>
+        
+        
+</select> 
+       
+<input type='submit'/>
+</form>
+
+<form action="http://192.168.1.146/cgi-bin/which.py">
+<br />
+<b style="color:white">Do you want to see path of any linux command</b>
+<input type='text' name='j' placeholder='eg:date'/>
+
+<input type='submit'/>
+</form>
+<form action="http://192.168.1.146/cgi-bin/history.py">
+<br />
+<b style="color:white">Check history</b>
+
+<input type='submit'/>
+</form>
+
+<form action="http://192.168.1.146/cgi-bin/mkdir.py">
+<br />
+<b style="color:white">Create Directory</b>
+<input type='text' name='h' placeholder='eg:ss' />
+
+<input type='submit'/>
+</form>
+</form>
+
+<form action="http://192.168.1.146/cgi-bin/rmdir.py">
+<br />
+<b style="color:white">Remove Directory</b>
+<input type='text' name='n' placeholder='eg:ss'/>
+
+<input type='submit'/>
+</form>
+<form action="http://192.168.1.146/cgi-bin/file.py">
+<br />
+<b style="color:white">Create File</b>
+<input type='text' name='m' placeholder='eg:a.txt'/>
+
+<input type='submit'/>
+</form>
+
+<form action="http://192.168.1.146/cgi-bin/rm.py">
+<br />
+<b style="color:white">Remove File</b>
+<input type='text' name='o' placeholder='eg:a.txt' />
+
+<input type='submit'/>
+</form>
+<form action="http://192.168.1.146/cgi-bin/cat.py">
+<br />
+<b style="color:white">Do you want see content of any file</b>
+<input type='text' name='l' placeholder='eg:a.txt'/>
+
+<input type='submit'/>
+</form>
+<form action="http://192.168.1.146/cgi-bin/man.py">
+<br />
+<b style="color:white">Do you want to see any manual of linux command</b>
+<input type='text' name='k'placeholder='eg:cal'/>
+
+<input type='submit'/>
+</form>
+<h2 style="color:yellow">ADD USER </h2>
+<form action="http://192.168.1.146/cgi-bin/useradd.py">
+<b style="color:white" >Enter username <b>
+<input type='text' name='u' placeholder='eg:tom'/></br>
+<br />
+<b style="color:white" >Enter password <b>
+<input type='password' name='p'placeholder='eg:xxxx' /></br>
+<br />
+<input type='submit'/>
+</form>
+<h2 style="color:yellow">DELETE USER </h2>
+<form action="http://192.168.1.146/cgi-bin/userdel.py">
+<b style="color:white" >Enter username <b>
+<input type='text' name='de' placeholder='eg:tom'/></br>
+<br />
+<input type='submit'/>
+</form>
+
+<h2 style="color:yellow">To Launch Docker using redhat linux</h2>
+<form action="http://192.168.1.146/cgi-bin/dockerrun.py">
+<b style="color:white" >Enter ur osname <b>
+<input type='text' name='x' placeholder='eg:os1'/></br>
+<br />
+<b style="color:white">Select  ur os Image</b>
+<select name='i'>
+        <option>ubuntu:latest</option>
+        <option>centos:7</option>
+        <option>centos:latest</option>
+</select>
+<br />
+<input type='submit'/>
+</form>
+<h2 style="color:yellow">To stop Docker container using redhat linux</h2>
+<form action="http://192.168.1.146/cgi-bin/dockerstop.py">
+<b style="color:white" >Enter ur osname <b>
+<input type='text' name='do' placeholder='eg:os1'/></br>
+<input type='submit'/>
+</form>
+</form>
+<h2 style="color:yellow">To remove Docker container using redhat linux</h2>
+<form action="http://192.168.1.146/cgi-bin/dockerrm.py">
+<b style="color:white" >Enter ur osname <b>
+<input type='text' name='dr' placeholder='eg:os1'/></br>
+<input type='submit'/>
+</form>
+<h2 style="color:yellow">To show Docker images</h2>
+<form action="http://192.168.1.146/cgi-bin/dockerimg.py">
+<input type='submit'/>
+</form>
+</form>
+<h2 style="color:yellow">To see available Docker container with one click</h2>
+<form action="http://192.168.1.146/cgi-bin/dockercon.py">
+<input type='submit'/>
+</form>
+</body>
+
